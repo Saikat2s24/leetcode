@@ -1,18 +1,8 @@
-// LeetCode 53 - Maximum Subarray (Kadane's Algorithm)
-// Find the contiguous subarray with the largest sum.
-// Time: O(n), Space: O(1)
-
-#include <bits/stdc++.h>
+﻿#include<bits/stdc++.h>
 using namespace std;
-
-class Solution {
-public:
-    int maxSubArray(vector<int>& nums) {
-        int maxSum = nums[0], curr = nums[0];
-        for (int i = 1; i < (int)nums.size(); i++) {
-            curr = max(nums[i], curr + nums[i]);
-            maxSum = max(maxSum, curr);
-        }
-        return maxSum;
-    }
-};
+// LeetCode 53 - Maximum Subarray | Kadane O(n)
+class Solution{public:
+    int maxSubArray(vector<int>&n){
+        int mx=n[0],cur=n[0];
+        for(int i=1;i<n.size();i++){cur=max(n[i],cur+n[i]);mx=max(mx,cur);}
+        return mx;}};
