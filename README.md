@@ -19,3 +19,4 @@ This repository contains my C++ solutions for LeetCode and array practice proble
 | [first_occurance.c++](first_occurance.c++) | First occurrence |
 | [linear_search.c++](linear_search.c++) | Linear search |
 | [pair_sum.c++](pair_sum.c++) | Pair sum |
+| [peakindes_O_n.c++](peakindes_O_n.c++) | Peak index O(n) |
