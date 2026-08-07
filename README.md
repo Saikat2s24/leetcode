@@ -24,3 +24,4 @@ This repository contains my C++ solutions for LeetCode and array practice proble
 | [sort01.c++](sort01.c++) | Sort 0 and 1 |
 | [sort01_withoutstl.c++](sort01_withoutstl.c++) | Sort 0 and 1 without STL |
 | [totalOcc.c++](totalOcc.c++) | Total occurrence |
+| [triplets_sum.c++](triplets_sum.c++) | Triplets sum |
