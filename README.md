@@ -13,3 +13,4 @@ This repository contains my C++ solutions for LeetCode and array practice proble
 | [intersection.c++](intersection.c++) | Intersection of arrays |
 | [leetcode_442.c++](leetcode_442.c++) | LeetCode 442 solution |
 | [number_of_occurance.c++](number_of_occurance.c++) | Number of occurrences |
+| [peekelementBestspace.c++](peekelementBestspace.c++) | Peak element using binary search |
