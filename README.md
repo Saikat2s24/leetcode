@@ -16,3 +16,4 @@ This repository contains my C++ solutions for LeetCode and array practice proble
 | [peekelementBestspace.c++](peekelementBestspace.c++) | Peak element using binary search |
 | [better_approach_insertion.c++](better_approach_insertion.c++) | Better approach insertion |
 | [binary_search.c++](binary_search.c++) | Binary search |
+| [first_occurance.c++](first_occurance.c++) | First occurrence |
