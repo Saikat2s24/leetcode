@@ -20,3 +20,4 @@ This repository contains my C++ solutions for LeetCode and array practice proble
 | [linear_search.c++](linear_search.c++) | Linear search |
 | [pair_sum.c++](pair_sum.c++) | Pair sum |
 | [peakindes_O_n.c++](peakindes_O_n.c++) | Peak index O(n) |
+| [peakindex_O_logn.c++](peakindex_O_logn.c++) | Peak index O(logn) |
