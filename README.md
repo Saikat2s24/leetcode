@@ -18,3 +18,4 @@ This repository contains my C++ solutions for LeetCode and array practice proble
 | [binary_search.c++](binary_search.c++) | Binary search |
 | [first_occurance.c++](first_occurance.c++) | First occurrence |
 | [linear_search.c++](linear_search.c++) | Linear search |
+| [pair_sum.c++](pair_sum.c++) | Pair sum |
