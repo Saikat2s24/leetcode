@@ -26,7 +26,6 @@ void ans(int arr3[], int k ){
     }
     cout<<endl;
 }
-
 int main(){
     int n,m;
     cout<<"Enter the size of the 1st array :";
