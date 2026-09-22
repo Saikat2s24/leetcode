@@ -1,17 +1,22 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 void moveZeroes(vector<int>& nums) {
-    int lastNonZero = 0;
+    int j = 0;
     for (int i = 0; i < nums.size(); i++) {
         if (nums[i] != 0) {
-            swap(nums[lastNonZero++], nums[i]);
+            swap(nums[j++], nums[i]);
         }
     }
 }
 int main() {
-    vector<int> nums = {0, 1, 0, 3, 12};
+    int n;
+    cout << "Enter the number of elements: ";
+    cin >> n;
+    vector<int> nums(n);
+    cout << "Enter the elements of the array: ";
+    for (int i = 0; i < n; i++) {
+        cin >> nums[i];
+    }
     moveZeroes(nums);
     cout << "Array after moving zeroes: ";
     for (int num : nums) {
